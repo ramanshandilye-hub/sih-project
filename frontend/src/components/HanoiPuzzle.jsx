@@ -100,7 +100,7 @@ function HanoiPuzzle({ onTraceUpdate }) {
     setIsLoadingTrace(true)
     setMessage('')
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/trace/hanoi?n=3')
+      const response = await fetch('https://sih-backend-uadb.onrender.com/api/trace/hanoi?n=3')
       const data = await response.json()
       setSteps(data.steps)
       setCurrentStepIndex(-1)
