@@ -12,7 +12,7 @@ function Landing() {
       justifyContent: 'center',
       fontFamily: 'sans-serif'
     }}>
-      <h1 style={{ fontSize: '48px', marginBottom: '10px' }}>
+      <h1 style={{ fontSize: '48px', marginBottom: '10px', color: 'white' }}>
         CodeVision
       </h1>
       <p style={{ fontSize: '18px', color: '#aaa', marginBottom: '30px' }}>
